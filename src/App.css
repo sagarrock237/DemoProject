@@ -1,0 +1,64 @@
+/* MOVIES COMPONENT */
+
+.movies-container img{
+  width: 100%;
+  height: 300px;
+}
+
+.movies-container span{
+  font-family: sans-serif;
+  line-height: 12px;
+  font-weight: 600;
+}
+
+.movies-data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.movies-explore{
+  display: flex;
+  align-items: center;
+}
+
+.movies-container-in{
+  margin: 2%;
+}
+
+.movies-container-in:hover{
+  margin: 0%;
+}
+
+/* SEARCH */
+
+.search-box img{
+  height: 50px;
+  width: 100px;
+}
+
+
+/* MOVIE MAIN */
+
+.movieDetail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.movieText{
+  width:'300px';
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+color: white ;
+}
+
+.movieDetail img{
+  height: 300px;
+  width: 300px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
